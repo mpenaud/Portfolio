@@ -1,0 +1,194 @@
+body{
+	font-family: 'Lato', sans-serif;
+
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-weight: bold;
+}
+
+
+
+section{
+	padding: 45px 0 80px 0;
+}
+
+section .heading{
+	text-align: center;
+	padding-bottom: 40px;
+}
+
+section .heading h2{
+	text-transform: uppercase;
+}
+
+.blue-divider{
+	width: 100px;
+	height: 2px;
+	background: #6c9a8b;
+	margin: 0 auto;
+}
+
+.white-divider{
+	width: 100px;
+	height: 2px;
+	background: #ffffff;
+	margin: 0 auto;
+}
+
+ul, ol{
+	list-style-type: none;
+}
+
+
+/* MENU */ 
+.navbar{
+	background : linear-gradient(to left, #60ba9d, #6c9a8b);
+	font-size: 12px;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.navbar .navbar-nav{
+	display: inline-block;
+	float: none;
+	vertical-align: top;
+}
+
+.navbar .navbar-collapse{
+	text-align: center;
+}
+
+.navbar li a {
+	color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+	color: #6c9a8b !important;
+	background: white !important;
+}
+
+.navbar-default .navbar-toggle{
+	border-style: none;
+}
+
+.icon-bar, .icon-bar:active{
+	background: white !important;
+}
+
+.onglets{
+	color: #6c9a8b !important;
+}
+
+
+
+
+/*INTITULE*/
+#intitule, #rencontre{
+	padding-top: 100px;
+
+	background-image: url("images/background.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+
+	color: #fff;
+
+
+}
+
+
+
+
+
+
+
+/*Rencontre*/
+#rencontre h1{
+	text-align: center;
+}
+
+
+#rencontre p {
+	margin-top: 20px;
+	margin-left: 38%;
+}
+
+
+/*Contenu*/
+#contenu {
+	margin-left: 15%;
+	width: 80%;
+}
+
+#contenu h2{
+	color: #6c9a8b;
+	width: 100%;
+	border-bottom: 3px solid #6c9a8b;
+}
+
+
+#contenu img{
+	margin-top: 15px;
+}
+
+#contenu img:hover{
+}
+
+
+/* FOOTER */ 
+footer{
+	background: #333;
+	padding: 20px 0 40px;
+}
+
+footer .glyphicon{
+	font-size: 25px;
+	margin: 20px;
+	color: #6c9a8b;
+	height: 30px;
+}
+
+
+footer .glyphicon:hover{
+	font-size: 27px;
+	margin: 20px;
+	color: #6c9a8b;
+	height: 30px;
+}
+
+footer h5{
+	color: white;
+	font-weight: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 768px){
+	.stage .heading h1{
+		font-size: 20px;
+		text-align: center;
+		color: #fff;
+	}
+
+	.retour{
+		font-size: 14px;
+		margin-bottom: 20px;
+			
+	}
+
+}
